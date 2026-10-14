@@ -68,8 +68,21 @@ print(course_name)
 
 
 ## method chanining
-
 course_name = "  ostad Ai ##booT#camp "
 
 course_name = course_name.strip().replace("#", "").title()
 print(course_name)
+
+
+
+##
+txt = "ostad ai-ml saihan"
+
+platform = txt[:5]     # same as txt[0:5]
+print(platform)
+
+name = txt[12:18]      # same as txt[12:18]
+print(name)
+
+course = txt[6:11]
+print(course)
