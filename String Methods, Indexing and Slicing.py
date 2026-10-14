@@ -53,3 +53,23 @@ text1 = "  mY goaL is to AchIeve gOOd reSult."
 shehab = text1.strip().title().replace("my", "Our")
 print(shehab) #My Goal Is To Achieve Good Result.
 
+
+
+
+
+course_name = "  ostad Ai ##booT#camp "
+print(course_name)
+course_name = course_name.strip()
+print(course_name)
+course_name = course_name.replace("#", "")
+print(course_name)
+course_name = course_name.title()
+print(course_name)
+
+
+## method chanining
+
+course_name = "  ostad Ai ##booT#camp "
+
+course_name = course_name.strip().replace("#", "").title()
+print(course_name)
