@@ -37,3 +37,6 @@ else:
         print("It's cold, but sunny. Let's go out.")
     else:
         print("It's cold and not sunny, so it's risky to go outside.")
+
+
+##
