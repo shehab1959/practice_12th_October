@@ -45,3 +45,6 @@ while True: #Bar bar loop cholte thakar jnno right guess na pawa prjnto
         break
     else :
         print("Wrong, Try Again!")
+
+
+#End of this cls
